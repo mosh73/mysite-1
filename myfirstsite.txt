@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moshe Noy | Caesarea Labs</title>
+<style>
+:root{
+  --purple:#6A0DAD;
+  --deep-purple:#3D0A6E;
+  --green:#2ECC71;
+  --white:#FFFFFF;
+  --section:#F8F9FA;
+  --text:#1F1F2E;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+body{background:white;color:var(--text);line-height:1.6;}
+header{
+  background:linear-gradient(135deg,var(--deep-purple),var(--purple));
+  color:white;text-align:center;padding:100px 10%;
+}
+header h1{font-size:3.2rem;margin-bottom:10px;}
+header h2{color:var(--green);font-weight:400;margin-bottom:20px;}
+header p{max-width:800px;margin:auto;font-size:1.15rem;}
+.btn{
+  display:inline-block;margin-top:30px;padding:14px 28px;
+  background:var(--green);color:var(--deep-purple);
+  text-decoration:none;border-radius:30px;font-weight:bold;
+}
+section{padding:80px 10%;background:white;}
+.container{max-width:1200px;margin:auto;}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
+h3{color:var(--purple);font-size:2rem;margin-bottom:20px;}
+.card{
+  background:white;padding:35px;border-radius:16px;
+  border-top:5px solid var(--green);
+  box-shadow:0 8px 24px rgba(106,13,173,.08);
+}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px;}
+.tag{background:var(--purple);color:white;padding:8px 15px;border-radius:20px;font-size:.9rem;}
+.company{background:var(--section);text-align:center;}
+footer{background:var(--deep-purple);color:white;text-align:center;padding:30px;}
+.highlight{color:var(--green);font-weight:bold;}
+@media(max-width:768px){.grid{grid-template-columns:1fr;}header h1{font-size:2.4rem;}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Moshe Noy</h1>
+  <h2>Co-Founder & Product Lead | Caesarea Labs</h2>
+  <p>Building AI-powered semiconductor automation technology for post-silicon validation, Circuit Edit, hardware debug, and next-generation engineering workflows.</p>
+  <a href="#" class="btn">Get In Touch</a>
+</header>
+
+<section>
+<div class="container">
+<div class="grid">
+<div>
+  <h3>About Me</h3>
+  <p>I am the Co-Founder and Product Lead of <span class="highlight">Caesarea Labs</span>, a deep-tech semiconductor software startup developing AI-powered automation for post-silicon validation and Circuit Edit workflows.</p>
+  <br>
+  <p>My focus combines semiconductor engineering, product strategy, AI technologies, and customer-driven innovation to accelerate the future of chip development and validation.</p>
+</div>
+
+<div class="card">
+  <h3>Focus Areas</h3>
+  <div class="tags">
+    <span class="tag">Semiconductors</span>
+    <span class="tag">EDA</span>
+    <span class="tag">AI</span>
+    <span class="tag">Product Management</span>
+    <span class="tag">Circuit Edit</span>
+    <span class="tag">Post-Silicon Validation</span>
+    <span class="tag">Deep Tech</span>
+    <span class="tag">Startup Leadership</span>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="company">
+<div class="container">
+<h3>About Caesarea Labs</h3>
+<p style="max-width:900px;margin:auto;">
+Caesarea Labs develops AI-powered software that automates post-silicon validation, semiconductor debug, and Circuit Edit workflows. Our mission is to dramatically reduce engineering effort, improve success rates, and accelerate time-to-market for advanced semiconductor products.
+</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h3>Vision</h3>
+<div class="card">
+<p>We believe semiconductor engineering is entering an era of intelligent automation. By combining AI, visualization technologies, and deep domain expertise, Caesarea Labs aims to become the software infrastructure layer for post-silicon validation and hardware modification workflows worldwide.</p>
+</div>
+</div>
+</section>
+
+<footer>
+  <p>© 2026 Moshe Noy | Co-Founder & Product Lead | Caesarea Labs</p>
+</footer>
+
+</body>
+</html>

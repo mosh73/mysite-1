@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>נדל"ן מאדים — משה נוי</title>
+<meta name="description" content="תיווך, השקעות וניהול נכסים במאדים עבור קונים פרטיים." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      fontFamily: { sans: ['Heebo','system-ui','sans-serif'] },
+      colors: {
+        ink:    '#0c1426',
+        ink2:   '#111a30',
+        rust:   '#e2683d',
+        rust2:  '#c9522a',
+        sand:   '#fbf7f2',
+      }
+    }
+  }
+}
+</script>
+<style>
+  html,body{background:#fbf7f2}
+  .accent{color:#e2683d}
+  .btn-rust{background:#e2683d;color:#fff}
+  .btn-rust:hover{background:#c9522a}
+  .card-shadow{box-shadow:0 10px 30px -15px rgba(12,20,38,.18)}
+  details[open] summary .plus{transform:rotate(45deg)}
+  .plus{transition:transform .2s}
+</style>
+</head>
+<body class="font-sans text-ink">
+
+<!-- HERO -->
+<section class="relative text-white">
+  <img src="./mars-hero.jpg" alt="" class="absolute inset-0 w-full h-full object-cover" />
+  <div class="absolute inset-0 bg-gradient-to-b from-ink/85 via-ink/55 to-ink/85"></div>
+
+  <div class="relative">
+    <!-- Nav -->
+    <header class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <span class="w-10 h-10 rounded-full bg-rust grid place-items-center text-lg">🪐</span>
+        <span class="leading-tight">
+          <span class="block font-bold">נדל"ן מאדים</span>
+          <span class="block text-xs text-white/70">משה נוי</span>
+        </span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#home" class="accent border-b border-rust pb-1">דף הבית</a>
+        <a href="#services" class="hover:text-rust">שירותים</a>
+        <a href="#properties" class="hover:text-rust">נכסים</a>
+        <a href="#about" class="hover:text-rust">עליי</a>
+        <a href="#why" class="hover:text-rust">למה מאדים?</a>
+        <a href="#process" class="hover:text-rust">תהליך עבודה</a>
+        <a href="#testimonials" class="hover:text-rust">המלצות</a>
+        <a href="#faq" class="hover:text-rust">שאלות נפוצות</a>
+        <a href="#contact" class="hover:text-rust">צור קשר</a>
+      </nav>
+    </header>
+
+    <!-- Hero copy -->
+    <div class="max-w-7xl mx-auto px-6 pt-20 pb-32 text-center md:text-right">
+      <div class="md:max-w-2xl md:ms-auto">
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-[1.05]">
+          העתיד כבר כאן.<br/>
+          הבית הבא שלך —<br/>
+          <span class="accent">במאדים.</span>
+        </h1>
+        <p class="mt-6 text-white/80 text-lg leading-relaxed md:max-w-lg md:ms-auto">
+          תיווך, השקעות וניהול נכסים במאדים עבור קונים פרטיים, משקיעים וחברות נדל"ן - בנה איתנו את את העתיד.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3 justify-center md:justify-end">
+          <a href="#contact" class="btn-rust rounded-full px-7 py-3 font-semibold inline-flex items-center gap-2">💬 צרו קשר</a>
+          <a href="#properties" class="rounded-full px-7 py-3 font-semibold border border-white/30 bg-white/5 backdrop-blur inline-flex items-center gap-2 hover:bg-white/10">🏠 צפו בנכסים</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feature strip -->
+    <div class="relative max-w-7xl mx-auto px-6 -mb-12">
+      <div class="bg-ink2/90 backdrop-blur border border-white/10 rounded-2xl grid grid-cols-2 md:grid-cols-6 divide-y md:divide-y-0 md:divide-x divide-white/10 rtl:md:divide-x-reverse">
+        <!-- items -->
+        <div class="p-6 text-center">
+          <div class="accent text-2xl">👤</div>
+          <div class="mt-2 font-semibold">ליווי אישי</div>
+          <div class="text-xs text-white/60 mt-1">התאמה מלאה של הנכס לצורכי הלקוח</div>
+        </div>
+        <div class="p-6 text-center">
+          <div class="accent text-2xl">🔬</div>
+          <div class="mt-2 font-semibold">ניסיון ומקצועיות</div>
+          <div class="text-xs text-white/60 mt-1">עשורים של ניסיון בשוק הנדל"ן</div>
+        </div>
+        <div class="p-6 text-center">
+          <div class="accent text-2xl">🛰️</div>
+          <div class="mt-2 font-semibold">הזדמנויות בלעדיות</div>
+          <div class="text-xs text-white/60 mt-1">נכסים למכירה / השכרה בלעדית</div>
+        </div>
+        <div class="p-6 text-center">
+          <div class="accent text-2xl">⚙️</div>
+          <div class="mt-2 font-semibold">טכנולוגיה מתקדמת</div>
+          <div class="text-xs text-white/60 mt-1">אפליקציית ניהול נדל"ן אוטומטית</div>
+        </div>
+        <div class="p-6 text-center">
+          <div class="accent text-2xl">🛡️</div>
+          <div class="mt-2 font-semibold">שקיפות מלאה</div>
+          <div class="text-xs text-white/60 mt-1">מידע אמין וללא הפתעות</div>
+        </div>
+        <div class="p-6 text-center">
+          <div class="accent text-2xl">🚀</div>
+          <div class="mt-2 font-semibold">מהירות תגובה</div>
+          <div class="text-xs text-white/60 mt-1">זמינות מלאה לכל פנייה</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="bg-sand pt-32 pb-24">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <img src="./mars-astronaut.jpg" alt="משה נוי" class="rounded-2xl card-shadow w-full" />
+    <div>
+      <h2 class="text-4xl font-extrabold">שלום, אני משה נוי</h2>
+      <p class="text-2xl accent font-semibold mt-1">מתווך נדל"ן במאדים</p>
+      <div class="mt-6 space-y-4 text-ink/80 leading-relaxed">
+        <p>במשך השנים ליוויתי משקיעים, חברות ויזמים במציאת נכסים מניבים במאדים. ההיכרות העמוקה שלי עם השוק המקומי, הטכנולוגיה המתקדמת והגישה האנושית מאפשרים לי לאתר הזדמנויות נדל"ן יוצאות דופן ולהוביל עסקאות בטוחות, רווחיות ומותאמות אישית.</p>
+        <p>בין אם אתם מחפשים חלקת קרקע לבנייה, דירה יוקרתית, אזור מסחרי או נכס להשקעה — אני כאן כדי להפוך את החלום שלכם במאדים למציאות.</p>
+      </div>
+      <div class="mt-8 grid grid-cols-4 gap-4 text-center">
+        <div><div class="text-2xl font-extrabold accent">500M+</div><div class="text-xs text-ink/60 mt-1">שווי עסקאות (דולר מאדים)</div></div>
+        <div><div class="text-2xl font-extrabold accent">20+</div><div class="text-xs text-ink/60 mt-1">שנות ניסיון</div></div>
+        <div><div class="text-2xl font-extrabold accent">100%</div><div class="text-xs text-ink/60 mt-1">לקוחות מרוצים</div></div>
+        <div><div class="text-2xl font-extrabold accent">150+</div><div class="text-xs text-ink/60 mt-1">נכסים מנוהלים</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center">
+      <h2 class="text-4xl font-extrabold">השירותים <span class="accent">שלנו</span></h2>
+      <p class="text-ink/60 mt-2">פתרונות נדל"ן מקיפים לכל צורך במאדים</p>
+    </div>
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6">
+      <!-- service card template -->
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-farm.jpg" class="h-36 w-full object-cover" alt="">
+        <div class="p-4"><h3 class="font-bold">קרקעות וחקלאות</h3><p class="text-xs text-ink/60 mt-2">חלקות לבנייה וחקלאות</p></div>
+      </article>
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-villa.jpg" class="h-36 w-full object-cover" alt="">
+        <div class="p-4"><h3 class="font-bold">מגורים יוקרתיים</h3><p class="text-xs text-ink/60 mt-2">דירות, וילות ופנטהאוז מגוונים לקנייה והשכרה</p></div>
+      </article>
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-city.jpg" class="h-36 w-full object-cover" alt="">
+        <div class="p-4"><h3 class="font-bold">מסחר ותעשייה</h3><p class="text-xs text-ink/60 mt-2">אזורי תעשייה, מסחר ולוגיסטיקה לעסקים וחברות</p></div>
+      </article>
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-interior.jpg" class="h-36 w-full object-cover" alt="">
+        <div class="p-4"><h3 class="font-bold">ניהול נכסים</h3><p class="text-xs text-ink/60 mt-2">ניהול שוטף, מסחר לוגיסטיקה, גבייה ודיווח מלא</p></div>
+      </article>
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-satellite.jpg" class="h-36 w-full object-cover" alt="">
+        <div class="p-4"><h3 class="font-bold">השקעות חכמות</h3><p class="text-xs text-ink/60 mt-2">איתור נכסים עם פוטנציאל השקעה גבוה</p></div>
+      </article>
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-dome.jpg" class="h-36 w-full object-cover" alt="">
+        <div class="p-4"><h3 class="font-bold">ייעוץ וליווי</h3><p class="text-xs text-ink/60 mt-2">ליווי אישי מתחילת ועד סיום העסקה</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="relative text-white">
+  <img src="./mars-helmet.jpg" class="absolute inset-0 w-full h-full object-cover object-right opacity-95" alt="">
+  <div class="absolute inset-0 bg-ink/85"></div>
+  <div class="relative max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+    <div class="md:col-start-2 justify-self-start max-w-xl">
+      <h2 class="text-4xl font-extrabold">למה לבחור בנדל"ן <span class="accent">מאדים?</span></h2>
+      <p class="text-white/70 mt-2">אנחנו לא רק מוכרים נכסים, אנחנו בונים עתיד.</p>
+      <div class="mt-10 grid sm:grid-cols-2 gap-8">
+        <div><div class="accent text-2xl">🌐</div><h3 class="font-bold mt-2">רשת קשרים רחבה</h3><p class="text-sm text-white/70 mt-1">קשרים עם יזמים, חברות, משקיעים ורשויות מקומיות במאדים.</p></div>
+        <div><div class="accent text-2xl">🧠</div><h3 class="font-bold mt-2">היכרות מעמיקה עם השוק</h3><p class="text-sm text-white/70 mt-1">היכרות יחסומה עם מאדים, מפת השוק, אזורים מתפתחים והזדמנויות חדשות.</p></div>
+        <div><div class="accent text-2xl">⚙️</div><h3 class="font-bold mt-2">טכנולוגיה מתקדמת</h3><p class="text-sm text-white/70 mt-1">כלים מתקדמים לליווי נכסים, הדפות, בינה אלגוריתמית וזיווחים מדוקים.</p></div>
+        <div><div class="accent text-2xl">🤝</div><h3 class="font-bold mt-2">שירות אישי ומותאם</h3><p class="text-sm text-white/70 mt-1">כל לקוח מקבל יחס אישי וחבונן מדויק לצרכים ולמטרות שלו.</p></div>
+      </div>
+    </div>
+    <div></div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="bg-sand py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold">תהליך העבודה</h2>
+    <p class="text-ink/60 mt-2">4 שלבים פשוטים להגשמת החלום לכם במאדים</p>
+    <div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10 relative">
+      <div class="absolute top-6 left-10 right-10 border-t-2 border-dashed border-rust/40 hidden lg:block"></div>
+      <!-- step -->
+      <div class="relative">
+        <div class="mx-auto w-12 h-12 rounded-full btn-rust grid place-items-center font-bold relative z-10">4</div>
+        <h3 class="font-bold mt-4">סגירת עסקה וליווי</h3>
+        <p class="text-sm text-ink/60 mt-1">נלווה אתכם עד סיום העסקה ואף לאחר מכן.</p>
+      </div>
+      <div class="relative">
+        <div class="mx-auto w-12 h-12 rounded-full btn-rust grid place-items-center font-bold relative z-10">3</div>
+        <h3 class="font-bold mt-4">בדיקה ומו"מ</h3>
+        <p class="text-sm text-ink/60 mt-1">נבצע בדיקות מקיפות וננהל מו"מ לטובתכם.</p>
+      </div>
+      <div class="relative">
+        <div class="mx-auto w-12 h-12 rounded-full btn-rust grid place-items-center font-bold relative z-10">2</div>
+        <h3 class="font-bold mt-4">איתור נכסים</h3>
+        <p class="text-sm text-ink/60 mt-1">נאתר עבורכם את הנכסים המתאימים ביותר.</p>
+      </div>
+      <div class="relative">
+        <div class="mx-auto w-12 h-12 rounded-full btn-rust grid place-items-center font-bold relative z-10">1</div>
+        <h3 class="font-bold mt-4">פגישת היכרות</h3>
+        <p class="text-sm text-ink/60 mt-1">נבין יחד את הצרכים, השאיפות והתקציב שלכם.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROPERTIES -->
+<section id="properties" class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold">נכסים נבחרים</h2>
+    <p class="text-ink/60 mt-2">הזדמנויות נדל"ן חמות במאדים עכשיו</p>
+    <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 text-right">
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-villa.jpg" class="h-40 w-full object-cover" alt="">
+        <div class="p-5">
+          <h3 class="font-bold">וילה יוקרתית — אזור אולימפוס</h3>
+          <p class="text-xs text-ink/60">אולימפוס מונס</p>
+          <p class="accent font-extrabold text-xl mt-3">15,000,000</p>
+          <p class="text-xs text-ink/60">דולר מאדים</p>
+        </div>
+      </article>
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-interior.jpg" class="h-40 w-full object-cover" alt="">
+        <div class="p-5">
+          <h3 class="font-bold">דירת 3 חדרים — ולינור הילס</h3>
+          <p class="text-xs text-ink/60">ולינור הילס</p>
+          <p class="accent font-extrabold text-xl mt-3">2,800,000</p>
+          <p class="text-xs text-ink/60">דולר מאדים</p>
+        </div>
+      </article>
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-satellite.jpg" class="h-40 w-full object-cover" alt="">
+        <div class="p-5">
+          <h3 class="font-bold">חלקת קרקע — עמק מארינר</h3>
+          <p class="text-xs text-ink/60">עמק מארינר</p>
+          <p class="accent font-extrabold text-xl mt-3">1,200,000</p>
+          <p class="text-xs text-ink/60">דולר מאדים</p>
+        </div>
+      </article>
+      <article class="bg-sand rounded-2xl overflow-hidden card-shadow">
+        <img src="./mars-city.jpg" class="h-40 w-full object-cover" alt="">
+        <div class="p-5">
+          <h3 class="font-bold">אזור תעשייה — גייל סיטי</h3>
+          <p class="text-xs text-ink/60">גייל סיטי</p>
+          <p class="accent font-extrabold text-xl mt-3">9,500,000</p>
+          <p class="text-xs text-ink/60">דולר מאדים</p>
+        </div>
+      </article>
+    </div>
+    <a href="#contact" class="inline-block mt-10 px-6 py-3 rounded-full border border-rust accent font-semibold hover:bg-rust hover:text-white">צפייה בכל הנכסים</a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="bg-ink text-white py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold">לקוחות מספרים</h2>
+    <p class="text-white/60 mt-2">ההצלחה שלכם היא ההמלצה הכי טובה שלנו</p>
+    <div class="mt-12 grid md:grid-cols-3 gap-6 text-right">
+      <blockquote class="bg-white text-ink rounded-2xl p-6 card-shadow">
+        <div class="accent text-3xl">”</div>
+        <p class="text-sm mt-2">משה ליווה אותנו בהשקעה הראשונה שלנו במאדים. המקצועיות והליווי האישי הפכו את התהליך לפשוט ובטוח.</p>
+        <p class="mt-4 font-bold text-sm">דנה ר. <span class="text-ink/50 font-normal">משקיעת נדל"ן</span></p>
+        <p class="accent mt-1 text-sm">★★★★★</p>
+      </blockquote>
+      <blockquote class="bg-white text-ink rounded-2xl p-6 card-shadow">
+        <div class="accent text-3xl">”</div>
+        <p class="text-sm mt-2">בזכות משה מצאנו את המתחם המושלם להקמת החברה שלנו, שירות ברמה אחרת!</p>
+        <p class="mt-4 font-bold text-sm">יואב מ. <span class="text-ink/50 font-normal">מנכ"ל סטרטאפ</span></p>
+        <p class="accent mt-1 text-sm">★★★★★</p>
+      </blockquote>
+      <blockquote class="bg-white text-ink rounded-2xl p-6 card-shadow">
+        <div class="accent text-3xl">”</div>
+        <p class="text-sm mt-2">מצאנו את בית החלומות שלנו וקהילה מדהימה דרך נדל"ן מאדים.</p>
+        <p class="mt-4 font-bold text-sm">אורית ל. <span class="text-ink/50 font-normal">תושבת גייל סיטי</span></p>
+        <p class="accent mt-1 text-sm">★★★★★</p>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="bg-sand py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-4xl font-extrabold text-center">שאלות נפוצות</h2>
+    <div class="mt-10 grid md:grid-cols-2 gap-4">
+      <details class="bg-white rounded-xl p-5 card-shadow"><summary class="flex justify-between items-center font-semibold cursor-pointer">האם ניתן לקבל מימון לרכישת נכס במאדים?<span class="plus accent text-2xl leading-none">+</span></summary><p class="mt-3 text-sm text-ink/70">כן, אנו עובדים עם מספר גופי מימון המתמחים בעסקאות מאדים.</p></details>
+      <details class="bg-white rounded-xl p-5 card-shadow"><summary class="flex justify-between items-center font-semibold cursor-pointer">האם אתם מפעילים שירות ניהול נכסים?<span class="plus accent text-2xl leading-none">+</span></summary><p class="mt-3 text-sm text-ink/70">בהחלט. אנחנו מציעים ניהול שוטף, גבייה, אחזקה ודיווחים שקופים.</p></details>
+      <details class="bg-white rounded-xl p-5 card-shadow"><summary class="flex justify-between items-center font-semibold cursor-pointer">כמה זמן לוקח תהליך רכישת נכס?<span class="plus accent text-2xl leading-none">+</span></summary><p class="mt-3 text-sm text-ink/70">בממוצע בין 4 ל-8 שבועות מהפגישה הראשונה ועד סגירה.</p></details>
+      <details class="bg-white rounded-xl p-5 card-shadow"><summary class="flex justify-between items-center font-semibold cursor-pointer">האם ניתן להשכיר נכס מרחוק?<span class="plus accent text-2xl leading-none">+</span></summary><p class="mt-3 text-sm text-ink/70">כן, אנו מטפלים בכל התהליך — מאיתור שוכר ועד גבייה.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="relative text-white">
+  <img src="/mars-hero.jpg" class="absolute inset-0 w-full h-full object-cover" alt="">
+  <div class="absolute inset-0 bg-ink/85"></div>
+  <div class="relative max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12">
+    <div>
+      <h2 class="text-4xl font-extrabold">צור קשר</h2>
+      <p class="text-white/70 mt-3">מוכנים לקחת את הצעד הראשון לקראת העתיד שלכם במאדים? השאירו פרטים ונחזור אליכם בהקדם.</p>
+      <ul class="mt-8 space-y-3 text-sm">
+        <li>📧 moshe@mars-realestate.com</li>
+        <li>📞 +972-50-123-4567</li>
+        <li>📍 אולימפוס מונס, מאדים</li>
+      </ul>
+    </div>
+    <form class="bg-white/5 backdrop-blur border border-white/10 rounded-2xl p-6 grid gap-3" onsubmit="event.preventDefault();alert('תודה! נחזור אליך בהקדם.')">
+      <div class="grid grid-cols-2 gap-3">
+        <input class="bg-white/10 rounded-lg px-4 py-3 placeholder-white/50 outline-none" placeholder="שם מלא">
+        <input class="bg-white/10 rounded-lg px-4 py-3 placeholder-white/50 outline-none" placeholder="חומר עניין">
+      </div>
+      <div class="grid grid-cols-2 gap-3">
+        <input class="bg-white/10 rounded-lg px-4 py-3 placeholder-white/50 outline-none" placeholder="טלפון">
+        <input class="bg-white/10 rounded-lg px-4 py-3 placeholder-white/50 outline-none" placeholder="אימייל">
+      </div>
+      <textarea rows="4" class="bg-white/10 rounded-lg px-4 py-3 placeholder-white/50 outline-none" placeholder="הודעה"></textarea>
+      <button class="btn-rust rounded-lg py-3 font-semibold">שליחה ✈️</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-ink2 text-white/70 text-sm">
+  <div class="max-w-7xl mx-auto px-6 py-8 flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center gap-3">
+      <span class="w-9 h-9 rounded-full bg-rust grid place-items-center">🪐</span>
+      <span><span class="block text-white font-bold">נדל"ן מאדים</span><span class="text-xs">משה נוי</span></span>
+    </div>
+    <nav class="flex flex-wrap gap-5">
+      <a href="#about" class="hover:text-rust">עליי</a>
+      <a href="#services" class="hover:text-rust">שירותים</a>
+      <a href="#properties" class="hover:text-rust">נכסים</a>
+      <a href="#process" class="hover:text-rust">תהליך עבודה</a>
+      <a href="#faq" class="hover:text-rust">שאלות נפוצות</a>
+      <a href="#contact" class="hover:text-rust">צור קשר</a>
+    </nav>
+    <div class="flex gap-3">
+      <span>📘</span><span>📸</span><span>in</span>
+    </div>
+  </div>
+  <div class="text-center text-xs text-white/40 pb-6">© כל הזכויות שמורות נדל"ן מאדים · משה נוי</div>
+</footer>
+
+</body>
+</html>
